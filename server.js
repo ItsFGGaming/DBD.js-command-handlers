@@ -11,8 +11,8 @@ console.log('beep beep')
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
-token: "Nzc4MzczNzU0NzYxNzczMDY3.X7RDDA.7j19LY1wBCIDIGf2LUTOzqrpvbg",
- prefix: "!FG" 
+token: "TOKEN",
+ prefix: "!" 
 })
  
 bot.onMessage()
