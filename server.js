@@ -1,8 +1,18 @@
+const express = require("express");
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('Hey am online :)'))
+
+app.listen(port, () =>
+console.log('Your app is listening athttps://localhost:${port}'))
+console.log('beep beep')
+//dbd.js discord
 const dbd = require("dbd.js")
  
 const bot = new dbd.Bot({
-token: "TOKEN", 
-prefix: "!" 
+token: "Nzc4MzczNzU0NzYxNzczMDY3.X7RDDA.7j19LY1wBCIDIGf2LUTOzqrpvbg",
+ prefix: "!FG" 
 })
  
 bot.onMessage()
